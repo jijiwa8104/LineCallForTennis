@@ -53,4 +53,4 @@ Windows -> Edit the system environment variables -> Environment Variables -> Sys
 6. Select Interpreter (Python: Select Interpreter -> Python 3.11.9('.conda': conda)(Recommended)
 7. ```conda env list```
 
-If you can see *, that is the one currently activated.
+If you can see *, that is the one currently activated(the active environment.
