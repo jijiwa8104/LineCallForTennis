@@ -29,7 +29,7 @@ conda env remove --name <env_name> <pkg_name>
 conda list –-export > <package_list.txt>
 
 // Reinstall Packages From An Export File
-conda create -n <env_name> –file <package_list.txt>
+conda create -n <env_name> –-file <package_list.txt>
 ```
 
 ```
