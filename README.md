@@ -52,4 +52,5 @@ Windows -> Edit the system environment variables -> Environment Variables -> Sys
 5. Open The Command Palette (Ctrl + Shift + P)
 6. Select Interpreter (Python: Select Interpreter -> Python 3.11.9('.conda': conda)(Recommended)
 7. > conda env list
+
 If you can see *, that is the one currently activated.
