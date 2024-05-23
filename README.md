@@ -34,7 +34,7 @@ conda list –-export > <package_list.txt>
 conda create -n <env_name> –-file <package_list.txt>
 ```
 
-// If you face the problem of not recognizing the command "conda"
+### If you face the problem of not recognizing the command "conda"
 
 Windows -> Edit the system environment variables -> Environment Variables -> System variables -> Path -> Edit -> New
 
