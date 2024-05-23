@@ -35,3 +35,4 @@ conda create -n <env_name> –-file <package_list.txt>
 
 ```
 // How To Use A Virtual Environment In VS Code
+[ref](https://code.visualstudio.com/docs/python/environments)
