@@ -5,8 +5,7 @@
 
 ## virtual environment
 [ref](https://docs.kanaries.net/topics/Python/conda-remove-environment)
-
-'''
+```
 // Check if Conda is up to date
 conda update conda
 // How Do I List All The Conda Environments?
@@ -19,4 +18,4 @@ conda install -n [env_name] [package]
 conda env remove --name [env_name]
 // How To Delete A Conda Package
 conda env remove --name [env_name] [pkg_name]
-'''
+```
