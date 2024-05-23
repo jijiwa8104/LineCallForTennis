@@ -13,10 +13,10 @@ conda env list
 // How Do I List All The Packages In The Current Environment?
 conda list
 // How Do I List All The Packages In A Specific Environment?
-conda list -n [env_name]
+conda list -n <env_name>
 
 // How To Create A Conda Environment
-conda create -n [env_name] python=x.x anaconda
+conda create -n <env_name> python=x.x anaconda
 // Install Additional Python Packages To A Virtual Environment
 conda install -n [env_name] [package]
 
@@ -24,6 +24,12 @@ conda install -n [env_name] [package]
 conda env remove --name [env_name]
 // How To Delete A Conda Package
 conda env remove --name [env_name] [pkg_name]
+
+// Save Packages For Future Use
+conda list –-export > [package_list.txt]
+
+// Reinstall Packages From An Export File
+conda create -n [env_name] –file [package_list.txt]
 ```
 
 ```
