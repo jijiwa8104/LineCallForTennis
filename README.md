@@ -42,6 +42,14 @@ Windows -> Edit the system environment variables -> Environment Variables -> Sys
 
 
 
-```
-// How To Use A Virtual Environment In VS Code
+### How To Use A Virtual Environment In VS Code
 [ref](https://code.visualstudio.com/docs/python/environments)
+
+1. Select The Explorer Tab
+2. Open A Project Folder
+3. Open The Command Palette (Ctrl + Shift + P)
+4. Create A Conda Environment (Python: Create Environment -> Conda -> Python 3.11(star marked)
+5. Open The Command Palette (Ctrl + Shift + P)
+6. Select Interpreter (Python: Select Interpreter -> Python 3.11.9('.conda': conda)(Recommended)
+7. > conda env list
+If you can see *, that is the one currently activated.
