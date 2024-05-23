@@ -18,18 +18,18 @@ conda list -n <env_name>
 // How To Create A Conda Environment
 conda create -n <env_name> python=x.x anaconda
 // Install Additional Python Packages To A Virtual Environment
-conda install -n [env_name] [package]
+conda install -n <env_name> <package>
 
 // How To Remove A Conda Environment
-conda env remove --name [env_name]
+conda env remove --name <env_name>
 // How To Delete A Conda Package
-conda env remove --name [env_name] [pkg_name]
+conda env remove --name <env_name> <pkg_name>
 
 // Save Packages For Future Use
-conda list –-export > [package_list.txt]
+conda list –-export > <package_list.txt>
 
 // Reinstall Packages From An Export File
-conda create -n [env_name] –file [package_list.txt]
+conda create -n <env_name> –file <package_list.txt>
 ```
 
 ```
