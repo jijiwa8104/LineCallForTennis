@@ -5,6 +5,7 @@
 
 ## virtual environment
 [ref](https://docs.kanaries.net/topics/Python/conda-remove-environment)
+[ref](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html)
 ```
 // Check If Conda Is Up To Date
 conda update conda
