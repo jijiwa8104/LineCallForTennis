@@ -44,20 +44,35 @@ Windows -> Edit the system environment variables -> Environment Variables -> Sys
 
 ### How To Use A Virtual Environment In VS Code
 [ref](https://code.visualstudio.com/docs/python/environments)
-
+You can create a conda environment with a name of it, but only in the default location(~\anaconda3\envs\)</br>
+If you create a conda environment in your working directory, you can't have the name for it.
+If you want to use a conda environment for your project directory, make one with a name and activate it when you work on it.
 1. Select The Explorer Tab
 2. Open A Project Folder
-3. Open The Command Palette (Ctrl + Shift + P)
-4. Create A Conda Environment (Python: Create Environment -> Conda -> Python 3.11(star marked)
-5. Open The Command Palette (Ctrl + Shift + P)
-6. Select Interpreter (Python: Select Interpreter -> Python 3.11.9('.conda': conda)(Recommended)
-7. ```conda env list```
+3. Create A Conda Environment for Your Project
+```
+(base) PS path\to\your\project\folder> conda create --name {your_env} python=3.11.9
+```
+4. Activate Your Environment
+```
+(base) PS path\to\your\project\folder> conda activate your_env
+(your_env) PS path\to\your\project\folder> 
+```
+6. Open The Command Palette (Ctrl + Shift + P)
+7. Select Interpreter (Python: Select Interpreter -> Python 3.11.9('your_env') ~\anaconda3\envs\your_env\python.exe)
+```
+(lineCall) PS C:\Users\kitki\Project_TennisLineCall> conda env list
+# conda environments:
+#
+base                     C:\Users\kitki\anaconda3
+jiji                     C:\Users\kitki\anaconda3\envs\jiji
+lineCall              *  C:\Users\kitki\anaconda3\envs\lineCall
+```
+*(asterisk) means that it is the active environment.
 
-If you can see *, that is the one currently activated(the active environment.
 
 
-
-# Red Flag(Red Color Text)
+# Red Flags(Red Color Text in the terminal)
 ## Problem_01
 ```
 . : File C:\Users\kitki\Documents\WindowsPowerShell\profile.ps1
