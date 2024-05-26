@@ -54,3 +54,31 @@ Windows -> Edit the system environment variables -> Environment Variables -> Sys
 7. ```conda env list```
 
 If you can see *, that is the one currently activated(the active environment.
+
+
+
+# Red Flag(Red Color Text)
+## Problem_01
+```
+. : File C:\Users\kitki\Documents\WindowsPowerShell\profile.ps1
+cannot be loaded because running scripts is disabled on this
+system. For more information, see about_Execution_Policies at
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:3
++ . 'C:\Users\kitki\Documents\WindowsPowerShell\profile.ps1'
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityEx
+   ception
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\kitki\Project_TennisLineCall>
+```
+## Solved
+1. Open the terminal
+2. Change the execution policy (default: Restricted -> RemoteSigned or Unrestricted)
+3. Reopen the terminal
+```
+# Change the policy
+PS C:\Users\kitki\Project_TennisLineCall> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+# Now you can see the PowerShell prompt below
+(base) PS C:\Users\kitki\Project_TennisLineCall>
+```
