@@ -86,6 +86,7 @@ pipreqs /path/to project
 ```
 pip install -r requirements.txt
 # In a conda environment
+conda activate your_env
 conda install --yes --file requirements.txt
 ```
 [ref](https://medium.com/@am.sheikhjafari/how-to-install-packages-from-a-requirements-txt-file-no-errors-no-hassle-9381f73ddb38)
