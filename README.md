@@ -34,6 +34,18 @@ conda list –-export > <package_list.txt>
 conda create -n <env_name> –-file <package_list.txt>
 ```
 
+## Package List(requirements.txt)
+```
+pip freeze > requiremetns.txt
+pip install -r 
+```
+### Create a file of the list of all you installed with the pip install command
+[ref](https://stackoverflow.com/questions/31684375/automatically-create-file-requirements-txt)
+```
+pip install pipreqs
+pipreqs /path/to project
+
+
 ### If you face the problem of not recognizing the command "conda"
 
 Windows -> Edit the system environment variables -> Environment Variables -> System variables -> Path -> Edit -> New
