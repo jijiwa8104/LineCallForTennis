@@ -90,7 +90,7 @@ pip install -r requirements.txt
 ### Create a file of the list of all you installed with the pip install command
 [ref](https://stackoverflow.com/questions/31684375/automatically-create-file-requirements-txt)
 
-## How to clone the repository from GitHub to VS Code
+## How to clone the GitHub repository to VS Code
 
 
 # Red Flags(Red Color Text in the terminal)
