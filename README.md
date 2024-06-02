@@ -62,7 +62,7 @@ Windows -> Edit the system environment variables -> Environment Variables -> Sys
 
 
 ### How To Use A Virtual Environment In VS Code
-[ref](https://code.visualstudio.com/docs/python/environments)
+[ref](https://code.visualstudio.com/docs/python/environments)</br>
 You can create a conda environment with a name of it, but only in the default location(~\anaconda3\envs\)</br>
 If you create a conda environment in your working directory, you can't have the name for it.
 If you want to use a conda environment for your project directory, make one with a name and activate it when you work on it.
