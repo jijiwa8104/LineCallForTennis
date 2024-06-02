@@ -92,7 +92,6 @@ pip install -r requirements.txt
 
 ## How to clone the GitHub repository to VS Code
 
-
 # Red Flags(Red Color Text in the terminal)
 ## Problem_01
 ```
