@@ -35,15 +35,23 @@ conda create -n <env_name> –-file <package_list.txt>
 ```
 
 ## Package List(requirements.txt)
+### Create a file of the package list you need for your project
 ```
+# Option 1
 pip freeze > requiremetns.txt
-pip install -r 
+# Option 2
+pip install pipreqs
+pipreqs /path/to project
 ```
+### Install all the packages you need for the project
+```
+pip install -r requirements.txt
+```
+
 ### Create a file of the list of all you installed with the pip install command
 [ref](https://stackoverflow.com/questions/31684375/automatically-create-file-requirements-txt)
 ```
-pip install pipreqs
-pipreqs /path/to project
+
 
 
 ### If you face the problem of not recognizing the command "conda"
