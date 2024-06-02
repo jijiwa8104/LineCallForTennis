@@ -34,24 +34,6 @@ conda list –-export > <package_list.txt>
 conda create -n <env_name> –-file <package_list.txt>
 ```
 
-## Package List(requirements.txt)
-### Create a file of the package list you need for your project
-```
-# Option 1
-pip freeze > requiremetns.txt
-# Option 2
-pip install pipreqs
-pipreqs /path/to project
-```
-### Install all the packages you need for the project
-```
-pip install -r requirements.txt
-```
-
-### Create a file of the list of all you installed with the pip install command
-[ref](https://stackoverflow.com/questions/31684375/automatically-create-file-requirements-txt)
-
-
 
 ### If you face the problem of not recognizing the command "conda"
 
@@ -89,6 +71,26 @@ lineCall              *  C:\Users\kitki\anaconda3\envs\lineCall
 ```
 *(asterisk) means that it is the active environment.
 
+## Package List(requirements.txt)
+### Create a file of the package list you need for your project
+```
+# Option 1
+pip freeze > requiremetns.txt
+# Option 2
+pip install pipreqs
+pipreqs /path/to project
+
+가상환경쓰느냐 안쓰느냐에 따라 다른듯?
+```
+### Install all the packages you need for the project
+```
+pip install -r requirements.txt
+```
+
+### Create a file of the list of all you installed with the pip install command
+[ref](https://stackoverflow.com/questions/31684375/automatically-create-file-requirements-txt)
+
+## How to clone the repository from GitHub to VS Code
 
 
 # Red Flags(Red Color Text in the terminal)
