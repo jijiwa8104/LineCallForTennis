@@ -85,13 +85,18 @@ pipreqs /path/to project
 ### Install all the packages you need for the project
 ```
 pip install -r requirements.txt
+# In a conda environment
+conda install --yes --file requirements.txt
 ```
+[ref](https://medium.com/@am.sheikhjafari/how-to-install-packages-from-a-requirements-txt-file-no-errors-no-hassle-9381f73ddb38)
 
 ### Create a file of the list of all you installed with the pip install command
 [ref](https://stackoverflow.com/questions/31684375/automatically-create-file-requirements-txt)
 
 ## How to clone the GitHub repository to VS Code
-
+# Questions
+1. requirements.txt VS environment.yml
+2. 
 # Red Flags(Red Color Text in the terminal)
 ## Problem_01
 ```
