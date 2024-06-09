@@ -82,6 +82,7 @@ pipreqs /path/to project
 
 가상환경쓰느냐 안쓰느냐에 따라 다른듯?
 ```
+
 ### Install all the packages you need for the project
 ```
 pip install -r requirements.txt
@@ -89,6 +90,15 @@ pip install -r requirements.txt
 conda activate your_env
 conda install --yes --file requirements.txt
 ```
+
+## Package List(environment.yml)
+```
+# Export the Environment to a YAML File
+conda env export --name old_env > old_env_encironment.yml
+# Create a New Environment
+conda env create --name new_env --file old_env_environment.yml
+```
+
 [ref](https://medium.com/@am.sheikhjafari/how-to-install-packages-from-a-requirements-txt-file-no-errors-no-hassle-9381f73ddb38)
 
 ### Create a file of the list of all you installed with the pip install command
