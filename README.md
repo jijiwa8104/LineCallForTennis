@@ -3,6 +3,15 @@
 ## Use a smartphone camera as an IP camera
 1. install an app called DroidCam on the phone.
 
+## Install the package OpenCV
+1. Open a Terminal on VS Code
+2. Install the packages needed for the project
+```
+// Activate a conda environment
+(base) conda activate lineCall_RT
+(lineCall_RT) conda install -c conda-forge opencv
+```
+
 ## virtual environment
 [ref](https://docs.kanaries.net/topics/Python/conda-remove-environment)
 [ref](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html)
