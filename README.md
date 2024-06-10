@@ -7,9 +7,12 @@
 1. Open a Terminal on VS Code
 2. Install the packages needed for the project
 ```
-// Activate a conda environment
+// In a conda environment
 (base) conda activate lineCall_RT
 (lineCall_RT) conda install -c conda-forge opencv
+
+// In a normal environment
+pip install opencv-python
 ```
 
 ## virtual environment
