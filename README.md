@@ -145,3 +145,6 @@ PS C:\Users\kitki\Project_TennisLineCall> Set-ExecutionPolicy -Scope CurrentUser
 # Now you can see the PowerShell prompt below
 (base) PS C:\Users\kitki\Project_TennisLineCall>
 ```
+Or</br>
+1. Search ">Terminal Select Default Profile"
+2. Select Command Prompt
