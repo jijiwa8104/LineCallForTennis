@@ -88,6 +88,7 @@ lineCall              *  C:\Users\kitki\anaconda3\envs\lineCall
 ```
 # Option 1
 pip freeze > requirements.txt
+pip list --format=freeze > requirements.txt    # @ file 식으로 나오면
 # Option 2
 pip install pipreqs
 pipreqs /path/to project
