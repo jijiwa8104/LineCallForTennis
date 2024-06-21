@@ -87,7 +87,7 @@ lineCall              *  C:\Users\kitki\anaconda3\envs\lineCall
 ### Create a file of the package list you need for your project
 ```
 # Option 1
-pip freeze > requiremetns.txt
+pip freeze > requirements.txt
 # Option 2
 pip install pipreqs
 pipreqs /path/to project
