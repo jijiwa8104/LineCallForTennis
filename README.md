@@ -119,7 +119,8 @@ conda env create --name new_env --file old_env_environment.yml
 
 ## How to clone the GitHub repository to VS Code
 1. Browse to your project folder and type the command below
-```(git bash)
+```
+# (git bash)
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 # Questions
