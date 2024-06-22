@@ -86,10 +86,10 @@ lineCall              *  C:\Users\kitki\anaconda3\envs\lineCall
 ## Package List(requirements.txt)
 ### Create a file of the package list you need for your project
 ```
-# Option 1
+# Option 1 (installed in the environment)
 pip freeze > requirements.txt
 pip list --format=freeze > requirements.txt    # @ file 식으로 나오면
-# Option 2
+# Option 2 (not installed but used in the project)
 pip install pipreqs
 pipreqs /path/to project
 
