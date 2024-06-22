@@ -118,6 +118,10 @@ conda env create --name new_env --file old_env_environment.yml
 [ref](https://stackoverflow.com/questions/31684375/automatically-create-file-requirements-txt)
 
 ## How to clone the GitHub repository to VS Code
+1. Browse to your project folder and type the command below
+```
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
 # Questions
 1. requirements.txt VS environment.yml
 2. 
